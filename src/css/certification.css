@@ -1,0 +1,104 @@
+.certificationcontainer{
+    filter: drop-shadow(0px 0px 0px black);
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    max-width: 1220px;
+    background-color: white;
+    padding:0 0rem 0.6rem 0rem;
+    border-radius: 1rem;
+    /* box-shadow:2px 2px 5px #ffffff; */
+}
+
+
+.certificationbody .txtinput{
+    margin: 0.5rem;
+    filter: drop-shadow(0px 0px 0px );
+}
+.certificationcontainer .heading{
+    font-family: "Poppins", "sans-serif";
+    color: #0e7058;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    filter: brightness(1.4);
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+.certificationedu .certificationbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.certificationbody .btn .add{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #00688B;
+    border: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+.certificationbody .btn .add:hover{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #00688B;
+    border: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    transform: scale(0.97);
+}
+.certificationbody .btn .add:active{
+    transform: scale(1);
+}
+.addicon{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #00688B;
+    border: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+.addicon:hover{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #00688B;
+    border: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    transform: scale(0.97);
+}
+.addicon:active{
+    transform: scale(1);    
+}
+.certificationbody .btn .remove{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #e50000;
+    border: none;
+    padding: 0 1rem;
+}
+.certificationbody .btn .remove:hover{
+    color: white;
+    font-size:1.2rem;
+    padding: 0;
+    margin: 0;
+    background-color: #e50000;
+    border: none;
+    padding: 0 1rem;
+    transform: scale(0.97);
+}
+.certificationbody .btn.remove:active{
+    transform: scale(1);
+}

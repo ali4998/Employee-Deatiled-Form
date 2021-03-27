@@ -1,0 +1,27 @@
+.emercontainer{
+   /* box-shadow:2px 2px 0px #0e7058; */
+   filter: drop-shadow(0px 0px 0px black);
+   padding:0 0rem 0.6rem 0rem;
+   margin-top: 4rem;
+   max-width: 1220px;
+   background-color: white;
+   border-radius: 1rem;
+}
+.emercontainer .heading{
+    font-family: "Poppins", "sans-serif";
+    color: #0e7058;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    filter: brightness(1.4);
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+.emercontainer .pinfo{
+    text-align: center;
+}
+.emercontainer .detailsinput{
+    margin: 0.5rem;
+    filter: drop-shadow(0px 0px 0px black);
+}

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-image: url(../img/application-security-top.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 295rem;
+    width: 100%;
+}
+/*
+.videoTag{
+
+   background-attachment: fixed;
+   background-size: cover;
+   opacity: 1;
+} */
+/* .videoTag{
+        position:absolute;
+        width: 100%;
+        left:50%;
+        top:50%;
+        height: 100rem;
+        object-fit: cover;
+        z-index: -1;
+        transform: translate(-50%, -50%);
+    
+} */
+.mainbox{
+    /* position:absolute; */
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    /* position: absolute; */
+    /* top: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo1{
+    filter: drop-shadow(2px 3px 5px #ffffff);
+
+}
+.logo{
+    margin-top: 1rem;
+    filter: drop-shadow(3px 3px 0px black);
+}
+
+.mainbox .submit{
+    color: white;
+    background-color: #0e7058;
+    margin:5rem;
+    font-family: "Popping", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding:0.4rem 1.5rem;
+    box-shadow:3px 3px 16px #000000;
+    /* filter:drop-shadow(3px 3px 16px #000000); */
+    border-radius: 10px;
+}
+.mainbox .submit:hover{
+    color: white;
+    background-color: #0e7058;
+    margin:5rem;
+    font-family: "Popping", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transform: scale(0.97)
+}
+.mainbox .submit:active{
+    transform: scale(1)
+}
+
+
+
+
